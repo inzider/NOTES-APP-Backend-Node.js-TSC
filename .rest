@@ -1,0 +1,37 @@
+// -------- NOTES CONTROLLER ----------
+
+// CREATE NEW NOTE
+###
+POST http://localhost:3001/notes/
+Content-Type: application/json
+
+{
+    "note": "This is a test note", 
+    "status": "Pending"
+}
+
+
+// GET ALL NOTES
+###
+GET http://localhost:3001/notes/
+
+
+// GET ONE NOTE
+###
+GET http://localhost:3001/notes/62e6d440de2abf148e84944e
+
+
+// UPDATE NEW NOTE
+###
+PATCH http://localhost:3001/notes/62e6d440de2abf148e84944e
+Content-Type: application/json
+
+{
+    "note":"This is note number 21211",
+    "status":"Completed"
+}
+
+
+// DELETE NEW NOTE
+###
+DELETE http://localhost:3001/notes/62e6d440de2abf148e84944e
