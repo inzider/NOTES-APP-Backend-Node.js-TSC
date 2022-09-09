@@ -1,6 +1,6 @@
 # NOTE APP
 
-**Node.js REST API server in typescripts with MongoDB**
+**Quick test of Node.js REST API server in typescripts with MongoDB**
 
 
 ## Install dependencies
