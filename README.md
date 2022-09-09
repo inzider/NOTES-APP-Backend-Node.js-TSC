@@ -1,6 +1,6 @@
 # NOTE APP
 
-**Quick test of Node.js REST API server in typescripts with MongoDB**
+**Quick test of Node.js REST API server in typescripts with MongoDB and Jest test**
 
 
 ## Install dependencies
